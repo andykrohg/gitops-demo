@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/part-of: app-taxi
     spec:
       containers:
-      - image: nginxinc/nginx-unprivileged:latest
+      - image: quay.io/akrohg/taxi:master-07b82f6e8fc3b761bdb906dcd3281aef236d633a
         imagePullPolicy: Always
         name: taxi
         ports:
